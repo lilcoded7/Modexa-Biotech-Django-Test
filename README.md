@@ -71,9 +71,9 @@ git clone https://github.com/lilcoded7/Modexa-Biotech-Django-Test.git
 http://127.0.0.1:8000/api/v1/
 
 * update, delete, retrieve, Paitent details 
-http://127.0.0.1:8000/api/accounts/craud
+http://127.0.0.1:8000/api/v1/crude/
 
 ## API Documentation
 ```
-http://127.0.0.1:8000/api/doc
+http://127.0.0.1:8000/doc
 ```
