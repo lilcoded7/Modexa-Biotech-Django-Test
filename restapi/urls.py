@@ -7,11 +7,11 @@ from rest_framework import routers
 router = routers.DefaultRouter()
 
 
-router.register('patient', PatientView)
-router.register('update/delete', PatientWriteView )
+router.register('register-patient', PatientView)
+router.register('crude', PatientWriteView )
 
 
 
 urlpatterns = [
-    path('', include(router.urls))
+    path('v1/', include(router.urls))
 ]
