@@ -1,5 +1,4 @@
 from biomedical.basemodel import TimeBaseModel
-from restapi.models.gender_model import Gender
 from django.db import models 
 
 
