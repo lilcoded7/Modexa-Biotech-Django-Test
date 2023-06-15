@@ -73,6 +73,13 @@ http://127.0.0.1:8000/api/v1/
 * update, delete, Paitent details 
 http://127.0.0.1:8000/api/v1/crude/id/
 
+* User registration endpoint 
+http://127.0.0.1:8000/api/accounts/register/
+
+* User login endpoint 
+http://127.0.0.1:8000/api/accounts/login/
+
+
 ## API Documentation
 ```
 http://127.0.0.1:8000/doc
