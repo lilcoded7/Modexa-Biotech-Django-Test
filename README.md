@@ -49,11 +49,29 @@ git clone https://github.com/lilcoded7/Modexa-Biotech-Django-Test.git
   ```
  pipenv shell 
  ```
+ 
+  (.pipenv) $ pip install -r requirements.txt
+
+  (.pipenv) $ python manage.py makemigrations
+
+  (.pipenv) $ python manage.py migrate
+
+  (.pipenv) $ python manage.py createsuperuser 
+
+  (.pipenv) $ python manage.py runserver
+ 
+ 
 * Copy the IP address provided once your server has completed building the site. (It will say something like >> Serving at http://0.0.0.0:8000).
 * Open the address in the browser
 
 
 ## App Endpoints
+
+* create Patient whiles authenticated 
+http://127.0.0.1:8000/api/v1/
+
+* update, delete, retrieve, Paitent details 
+http://127.0.0.1:8000/api/accounts/craud
 
 ## API Documentation
 ```
