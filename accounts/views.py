@@ -27,9 +27,6 @@ class CreateUser(generics.GenericAPIView):
         return Response({'message':'Account Created! successfully'})
 
 
-
-
-
 class LoginAPIView(generics.GenericAPIView):
     serializer_class = LoginUserSerializer
     permission_classes = [AllowAny]
