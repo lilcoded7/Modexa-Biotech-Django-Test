@@ -10,12 +10,11 @@ from django.contrib.auth import authenticate
 from rest_framework_simplejwt.backends import TokenBackend
 from rest_framework_simplejwt.tokens import BlacklistedToken
 from datetime import datetime
- 
+
 
 User = get_user_model()
 
 # Create your views here.
-
 
 class CreateUser(generics.GenericAPIView):
     serializer_class = RegisterUserSerializer
